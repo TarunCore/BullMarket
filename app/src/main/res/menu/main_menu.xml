@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Profile"
+        android:id="@+id/profile" />
+
+    <item
+        android:title="Add"
+        android:icon="@drawable/ic_update_b"
+        app:showAsAction="ifRoom"
+        android:id="@+id/updateIt"
+        android:visible="false"/>
+    <item
+        android:title="Chat"
+        android:icon="@drawable/ic_chat"
+        app:showAsAction="ifRoom"
+        android:id="@+id/chat"
+        android:visible="true"/>
+
+
+</menu>
